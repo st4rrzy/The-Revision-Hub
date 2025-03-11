@@ -37,10 +37,10 @@ h2{
     margin: 0;
 }
 
-.header {
+img {
     width: 100%;
     object-fit: cover;
-    min-height: 40vh;
+    max-height: 40vh;
 }
 
 #navbar {
@@ -163,15 +163,16 @@ h2{
         justify-items: center;
         justify-content: center;
     }
-    img{
+    .optionpic{
         min-width: 50px;
+        max-width: 100px;
         max-height: 50px;
     }
     .optiontext{
         font-size: .9rem;
     }
-    h2{
-        font-size: 20px;
+    h3{
+        font-size: 25px;
     }
  }
 
