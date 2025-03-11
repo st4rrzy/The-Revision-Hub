@@ -231,7 +231,7 @@ main {
 
 button {
     background-color: #210102;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #eeede9;
