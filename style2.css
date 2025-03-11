@@ -106,9 +106,9 @@ main {
     gap: 100px;
 }
 
-.box-pic, .box-2 {
-    min-width: 400px;
-    max-height: 300px;
+.box-pic, .box-pic2 {
+    min-width: 300px;
+    max-height: 200px;
 }
 
 @media (max-width: 600px) {
