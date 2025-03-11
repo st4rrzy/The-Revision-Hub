@@ -115,7 +115,7 @@ img {
 
 .discover {
     padding: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     color: #ffffffe3;
     text-align: center;
@@ -164,9 +164,9 @@ img {
         justify-content: center;
     }
     .optionpic{
-        min-width: 50px;
+        width: 80px;  
+        height: 80px;
         max-width: 100px;
-        max-height: 50px;
     }
     .optiontext{
         font-size: .9rem;
@@ -186,10 +186,10 @@ img {
     background-color: none;
 }
 
-img {
-    min-width: 300px;
-    min-height: 200px; 
-    max-height: 100px;
+optionpic {
+    width: 100%; 
+    height: auto; 
+    max-width: 300px; 
     object-fit: cover; 
     margin-top: 30px;
 } 
