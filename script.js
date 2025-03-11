@@ -44,5 +44,10 @@ window.addEventListener("scroll", function() {
     document.getElementById("popup").classList.add("hidden");
 });
 
-
+document.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", (event) => {
+        console.log("Link clicked!");
+        // event.preventDefault(); // Remove this unless needed
+    });
+});
   
