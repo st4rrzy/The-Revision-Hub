@@ -76,10 +76,9 @@ h1{
 
 /* Logo */
 .logo {
-    font-size: 1.3rem;
-    margin-left: 5px;
+    font-size: 2.5rem;
+    margin-left: 15px;
     font-family:'Libre Baskerville', serif;
-    font-style: italic;
 }
 
 /* Menu List */
